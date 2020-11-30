@@ -1,0 +1,53 @@
+body {
+  /*background: radial-gradient(#cee4c5 0%, #c4feab 100%);; */
+  background-image: url("images/CT_background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 400px;
+  margin: 20px auto;
+  background-size: cover;
+  background: none;
+  /*opacity: 0;*/
+}
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+ul#adventDoors {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#adventDoors li {
+	position: absolute;
+}
+#adventDoors li a {
+	color: #D4AC0D;
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	border: 3px #D4AC0D solid;
+}
+#adventDoors li a:not(.disabled):hover {
+	color: #fff;
+	background-color: transparent;
+	background-color: rgba(255,255,255,0.15);
+}
+#adventDoors li a.disabled {
+	border-color: #b6fe98;
+	background-color: rgba(196,254,171,0.15);
+	color: #b6fe98;
+	cursor: default;
+}
+
+h1{
+	color: #D4AC0D;
+}
