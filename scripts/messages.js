@@ -1,5 +1,5 @@
 var messages = [
-	["There is nothing in the world so irresistibly contagious as laughter and good humor.", "Charles Dickens"],
+	["La Mango Airline Zebra compagnie vous souhaite une agréable écoute. Pour plus de confort veuillez vous munir d'une paire d'écouteurs :) ", "Récit de Sébastien - La Mangue Zébrée"],
 	["Christmas, children, is not a date. It is a state of mind.", "Mary Ellen Chase"],
 	["Christmas waves a magic wand over this world, and behold, everything is softer and more beautiful.", "Norman Vincent Peale"],
 	["Blessed is the season which engages the whole world in a conspiracy of love.", "Hamilton Wright Mabie"],
