@@ -29,8 +29,14 @@ function Door(calendar, day) {
 		} else {
 			var adventMessage = this.adventMessage;
 			innerNode.onclick = function() {
+
+				let position = day;
+				let pattern = 'audio_';
+				let file = pattern + position;
 				
-				document.getElementById('audio_1').play();
+				// document.getElementById('audio_1').play();
+				document.getElementById(file).play();
+
 				alert(adventMessage);
 
 
